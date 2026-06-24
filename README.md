@@ -45,9 +45,17 @@
 │       └── display/
 │           ├── lcd_display.cc         # 默认样式添加全屏字幕显示
 │           └── oled_display.cc        # 非 caption 角色恢复显示区域
+├── xiaozhi-caption-review.md           # 代码审查报告
 └── docs/
     └── xiaozhi-caption-device-manual.md  # 完整使用手册（含服务端搭建教程）
 ```
+
+## 完整源码仓库
+
+本仓库只包含修改过的文件。如需获取已合并修改的完整源码，请克隆以下仓库：
+
+- 完整固件：[ai-caption-firmware](https://github.com/artinsteinbrecher-lab/ai-caption-firmware)（基于 78/xiaozhi-esp32 完整源码 + 4 个修改文件）
+- 完整后端：[ai-caption-server](https://github.com/artinsteinbrecher-lab/ai-caption-server)（基于 xinnan-tech/xiaozhi-esp32-server 完整源码 + 3 个修改文件）
 
 ## 部署步骤
 
@@ -155,4 +163,5 @@ idf.py -p COM3 flash monitor
 
 ## 完整文档
 
-详细的搭建教程、配置参数说明、故障排查请参阅 [使用手册](docs/xiaozhi-caption-device-manual.md)。
+- [使用手册](docs/xiaozhi-caption-device-manual.md) — 搭建教程、配置参数、故障排查
+- [代码审查报告](xiaozhi-caption-review.md) — 完整的问题分析与修复方案
