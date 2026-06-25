@@ -164,4 +164,5 @@ idf.py -p COM3 flash monitor
 ## 完整文档
 
 - [使用手册](docs/xiaozhi-caption-device-manual.md) — 搭建教程、配置参数、故障排查
+- [Windows Server 部署指南](docs/WINDOWS-DEPLOYMENT-GUIDE.md) — 腾讯云 Windows Server 部署全流程（含 opus.dll、FFmpeg、安全组等踩坑记录）
 - [代码审查报告](xiaozhi-caption-review.md) — 完整的问题分析与修复方案
